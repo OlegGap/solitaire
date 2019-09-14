@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###### You can see the result of [the project here](https://oleggap.github.io/solitaire/)
+###### You can see the result of the project [here](https://oleggap.github.io/solitaire/)
 
 ## Available Scripts
 
