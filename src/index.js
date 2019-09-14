@@ -1,8 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import Conditioner from "./components/Conditioner";
+import Timer from "./components/Timer"; 
+import HoverTabel from "./components/hoverTable/index.js";
 
-import App from './App';
-// import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
+ReactDOM.render(
+  <Fragment>
+    {/* <App name="Oleg" />
+    <Conditioner />
+    <p></p>
+    <Timer /> */}
+   <HoverTabel />
+  </Fragment>,
+  document.getElementById("root")
+);
