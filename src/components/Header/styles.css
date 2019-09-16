@@ -1,0 +1,53 @@
+.header-wrapper {
+  width: 100%;
+  height: 47px;
+  background: #121111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
+  width: 98px;
+  height: 19px;
+}
+.header-lenguages {
+  width: 35px;
+  height: 16px;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+  display: flex;
+}
+.header-lenguages-triangle {
+  width: 9px;
+  height: 7px;
+  align-self: center;
+  justify-self: right;
+  padding-left: 3px;
+  /* transform: rotate(-180deg); */
+}
+.header-signUp {
+  width: 69px;
+  height: 30px;
+  background: url("./images/signIn-bg.png"), #000000;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  line-height: 29px;
+
+  color: #ffffff;
+}
