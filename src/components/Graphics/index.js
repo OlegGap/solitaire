@@ -15,7 +15,7 @@ class App extends Component {
   //     }
   //   };
   getUsers = async () => {
-    fetch('https://example.com/movies.json')
+    fetch('http://194.32.77.87:3000/api/coins')
       .then(function (response) {
         // return response.json();
         console.log(response);
