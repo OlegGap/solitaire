@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <section className="menu-wrapper">
                 <div className="menu-container">
-                    <div className="menu-item menu__news">News</div>
+                    <div className="menu-item menu__news">Newss</div>
                     <div className="menu-item menu__coins">Coins</div>
                     <div className="menu-item menu__validators">Validators</div>
                     <div className="menu-item menu__portfolio">Portfolio</div>
