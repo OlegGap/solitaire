@@ -1,15 +1,11 @@
 import React from 'react';
 import './styles/normalize.css'
-import Header from './components/Header'
-import Menu from './components/Menu'
-import Graphics from './components/Graphics'
+import HoverTabel from './components/hoverTable'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Menu />
-      <Graphics />
+      <HoverTabel />
     </div>
     );
   }
